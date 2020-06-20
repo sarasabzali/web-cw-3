@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>موقــعي</title>
-
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    Message #موضي-البناي-text
     <!-- 👇هنا style قم بإضافة وسم   -->
-    
-
+    <style>
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+ul{
+    display: inline-block
+}
+    </style>
 </head>
 <body>
     <!-- اكتب اسمك بعد مرحباً، -->
     <!-- headالى ال cssثم غير لون الخط عن طريق اضافة كود   -->
-    <h1>مرحبا، انا اسمي</h1>
+    <h1>مرحباً،اسمي ساره</h1>
 
 
     <!-- styles.css قم بإنشاء ملف جديد وقم بتسميته  -->
@@ -19,11 +28,13 @@
 
 
     <!-- قم بتغيير طريقة عرض الصور بحيث تظهر الصور تحت بعض -->
+    <div>
     <img src="./img/ps4.png" alt="الكويت تبرمج">
     <img src="./img/Nintendo.png" alt="الكويت تبرمج">
     <img src="./img/pc.png" alt="الكويت تبرمج">
-
-     <!--  بعد ذلك قم باخفاء النقاط من القائمه  -->
+    </div>
+     
+    <!--  بعد ذلك قم باخفاء النقاط من القائمه  -->
      <div>
         <h3>منصات الالعاب المتوفره</h3>
         <ul>
@@ -39,7 +50,8 @@
 <!-- Nintendo: red   -->
 <!-- PC:       green -->
 <!-- تلميح: يجب عليك اضافة كلاس لكل اسم -->
-    <table>
+<div class="table">   
+<table border="1">
         <tr>
             <th>الاسم</th>
             <th>العمر</th>
@@ -47,43 +59,44 @@
             <th>المنصه</th>
         </tr>
         <tr>
-            <td>احمد</td>
+            <td class="one">احمد</td>
             <td>16</td>
             <td>call of duty</td>
             <td>PS4</td>
         </tr>
         <tr>
-            <td>ساره</td>
+            <td class="two">ساره</td>
             <td>15</td>
             <td>mario party</td>
             <td>nintendo switch</td>
         </tr>
         <tr>
-            <td>علي</td>
+            <td class="three">علي</td>
             <td>15</td>
             <td>league of legends</td>
             <td>PC</td>
         </tr>
         <tr>
-            <td>عبدالله</td>
+            <td class="four">عبدالله</td>
             <td>14</td>
             <td>fifa</td>
             <td>PS4</td>
         </tr>
         <tr>
-            <td>دانه</td>
+            <td class="five">دانه</td>
             <td>22</td>
             <td>super smash bros</td>
             <td>nintendo switch</td>
         </tr>
         <tr>
-            <td>ليلى</td>
+            <td class="six">ليلى</td>
             <td>17</td>
             <td>minecraft</td>
             <td>PC</td>
         </tr>
     </table>
-
+</div> 
+<!-- الخلفيه مو شغلي بس تزين لا اكثر  -->
     
 </body>
 </html>
